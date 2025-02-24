@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>YAY! It's BOGO</h2>
+
+      <!-- BOGO Selection Grid -->
+      <div class="bogo-grid">
+        <!-- 1 Unit Box -->
+        <div class="bogo-box active" id="box1">
+          <div class="box-header">
+            <input type="radio" name="bogo" checked />
+            <span class="discount">10% Off</span>
+          </div>
+          <p class="price">1 Unit - $10.00 USD</p>
+          <p class="original-price">$24.00 USD</p>
+
+          <!-- Hidden Section (Expanded View) -->
+          <div class="expandable-content">
+            <div class="option">
+              <label>Size:</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="option">
+              <label>Colour:</label>
+              <select>
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 Unit Box -->
+        <div class="bogo-box" id="box2">
+          <div class="box-header">
+            <input type="radio" name="bogo" />
+            <span class="most-popular">MOST POPULAR</span>
+            <span class="discount">20% Off</span>
+          </div>
+          <p class="price">2 Unit - $18.00 USD</p>
+          <p class="original-price">$24.00 USD</p>
+
+          <!-- Hidden Section (Expanded View) -->
+          <div class="expandable-content">
+            <div class="option">
+              <label>Size:</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="option">
+              <label>Colour:</label>
+              <select>
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Unit Box -->
+        <div class="bogo-box" id="box3">
+          <div class="box-header">
+            <input type="radio" name="bogo" />
+            <span class="discount">30% Off</span>
+          </div>
+          <p class="price">3 Unit - $24.00 USD</p>
+          <p class="original-price">$24.00 USD</p>
+
+          <!-- Hidden Section (Expanded View) -->
+          <div class="expandable-content">
+            <div class="option">
+              <label>Size:</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="option">
+              <label>Colour:</label>
+              <select>
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="display-fixes">
+        <p class="free-delivery">Free Delivery</p>
+        <p>Total : $52.00 USD</p>
+    </div>
+        <button class="add-to-cart">+ Add to Cart</button>
+      </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

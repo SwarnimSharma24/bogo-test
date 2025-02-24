@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+/* Container */
+.container {
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h2 {
+    color: #ff4081;
+}
+
+/* BOGO Grid */
+.bogo-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Individual BOGO Box */
+.bogo-box {
+    padding: 0px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Active (Expanded) Box */
+.bogo-box.active {
+    border: 2px solid #ff4081;
+    background: #fff3f7;
+}
+
+/* Header Section inside Box */
+.box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Discount Tag */
+.discount {
+    background: #ff4081;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+/* Most Popular Tag */
+.most-popular {
+    background: #ffcc00;
+    color: black;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Price */
+.price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Original Price (Strikethrough) */
+.original-price {
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+/* Hidden Content (Options for Expanded View) */
+.expandable-content {
+    display: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* Option Fields */
+.option {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.option label {
+    font-weight: bold;
+}
+
+/* Free Delivery */
+.free-delivery {
+    color: #ff4081;
+    font-weight: bold;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    width: 100%;
+    padding: 12px;
+    background: #ff4081;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background: #d9366c;
+}
+.display-fixes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
